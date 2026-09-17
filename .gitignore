@@ -1,0 +1,54 @@
+# 编译生成的可执行文件
+*.exe
+*.out
+*.app
+
+# 目标文件、中间编译文件
+*.o
+*.obj
+*.so
+*.dll
+*.a
+*.lib
+
+# 头文件预编译文件
+*.gch
+*.pch
+
+# CMake 生成文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+
+# Makefile 产物
+*.stackdump
+
+# 调试文件
+*.pdb
+*.ilk
+*.idb
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# CLion / Qt / Visual Studio
+.idea/
+cmake-build-*/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.suo
+*.user
+*.vs/
+
+# 临时文件、日志
+*.log
+*.tmp
+*.bak
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
